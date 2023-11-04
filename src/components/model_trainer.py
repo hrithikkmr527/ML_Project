@@ -21,7 +21,7 @@ import os
 
 @dataclass
 class ModelTrainerConfig:
-    trained_model_file_path = os.path.join("artificats","model.pkl")
+    trained_model_file_path = os.path.join("artifacts","model.pkl")
 
 class ModelTrainer:
     def __init__(self):
